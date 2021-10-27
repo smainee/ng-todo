@@ -1,0 +1,18 @@
+input {
+  font-size: 1.5em;
+  border: none;
+  outline: none;
+  padding: 0.1em 1em 0.1em 0;
+  margin: 0;
+  height: 100%;
+  width: 100% !important;
+  word-wrap: break-word;
+  background-color: rgba(255, 255, 255, 0.863);
+
+  &::placeholder {
+  color: rgba(0, 0, 0, 0.432);
+  width: 90%;
+  font-style: italic;
+}
+
+}

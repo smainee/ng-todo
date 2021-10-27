@@ -1,0 +1,31 @@
+.icon-wrapper {
+  width: 1.5em;
+  height: 100%;
+  font-size: 1.8em;
+  color: rgb(3, 3, 3);
+  background-color: rgb(255, 255, 255);
+  transition: 250ms;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+  &:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(19, 19, 19, 0.24);
+    height: 100%;
+  }
+
+  & .fa {
+    padding-bottom: 0.38em;
+  }
+
+}
+
+app-todo-input {
+  width: 100%;
+}
+
+
+
+

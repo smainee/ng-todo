@@ -1,0 +1,11 @@
+
+  <div class="container-fluid wrapper d-flex flex-column align-items-center">
+    <div class="title">To Do List</div>
+    <div class="container-fluid row justify-content-center ">
+      <div class="todo-wrapper d-flex flex-column col-lg-6 col-md-6 col-sm-8 col-xs-8">
+        <app-header></app-header>
+        <app-todo-list></app-todo-list>
+        <app-todo-footer *ngIf="hasTodo$ | async"></app-todo-footer>
+      </div>
+    </div>
+  </div>

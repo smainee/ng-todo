@@ -1,0 +1,36 @@
+
+.wrapper {
+  width: 100%;
+
+  & .title {
+    color: rgba(25, 102, 55, 0.986);
+    font-size:4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 2px 4px rgb(255, 255, 255);
+
+  }
+
+  & .todo-wrapper {
+    background-color: rgb(245, 245, 255);
+    width: 50em;
+    padding: 0;
+    box-shadow: 0em 0em 1.5em #44444479;
+    margin-top: 1em;
+
+    & app-header {
+      background-color: rgb(255, 255, 255);
+      padding: 0 !important;
+      margin: 0 !important;
+      height: 3em;
+
+    }
+
+    & app-todo-footer {
+      background-color: rgb(233, 233, 233);
+    }
+
+}
+}
+
+
